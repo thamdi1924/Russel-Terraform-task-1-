@@ -11,15 +11,15 @@ variable "address_space" {
 }
 
 variable "dotnet-subnet" {
-  default = ["10.2.0.0/27"]
+  default = ["10.2.0.0/24"]
 }
 
 variable "js-subnet" {
-  default = ["10.2.0.32/27"]
+  default = ["10.2.1.0/24"]
 }
 
 variable "sql-subnet" {
-  default = ["10.2.0.64/27"]
+  default = ["10.2.2.0/24"]
 }
 
 
